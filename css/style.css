@@ -2,8 +2,8 @@
 	font-family: "Lato";
 	src: url("../fonts/Lato-Black.eot");
 	src: local("Lato Black"), local("Lato-Black"), url("../fonts/Lato-Black.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff"),
-		url("../fonts/Lato-Black.ttf") format("truetype");
+	url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff"),
+	url("../fonts/Lato-Black.ttf") format("truetype");
 	font-weight: 900;
 	font-style: normal;
 }
@@ -12,8 +12,8 @@
 	font-family: "Lato";
 	src: url("../fonts/Lato-Bold.eot");
 	src: local("Lato Bold"), local("Lato-Bold"), url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"),
-		url("../fonts/Lato-Bold.ttf") format("truetype");
+	url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"),
+	url("../fonts/Lato-Bold.ttf") format("truetype");
 	font-weight: bold;
 	font-style: normal;
 }
@@ -22,9 +22,9 @@
 	font-family: "Lato";
 	src: url("../fonts/Lato-Regular.eot");
 	src: local("Lato Regular"), local("Lato-Regular"),
-		url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"),
-		url("../fonts/Lato-Regular.ttf") format("truetype");
+	url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"),
+	url("../fonts/Lato-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
@@ -33,8 +33,8 @@
 	font-family: "Lato";
 	src: url("../fonts/Lato-Medium.eot");
 	src: local("Lato Medium"), local("Lato-Medium"), url("../fonts/Lato-Medium.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff"),
-		url("../fonts/Lato-Medium.ttf") format("truetype");
+	url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff") format("woff"),
+	url("../fonts/Lato-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
@@ -253,8 +253,8 @@ span {
 }
 .header__star-img {
 	margin-bottom: 24px;
+	padding-top: 2px;
 }
-.fa-star,
 .fa-car,
 .fa-shopping-cart {
 	font-size: 25px;
@@ -440,6 +440,7 @@ span {
 .products__content {
 	display: flex;
 	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .products__item {
 	display: inline-block;
